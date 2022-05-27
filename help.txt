@@ -1,0 +1,12 @@
+Starting Mongo DB -> 'mongod --config /usr/local/etc/mongod.conf'
+Connect using - 'mongosh' in another terminal
+
+
+brew services start mongodb-community
+brew services stop mongodb-community
+
+https://github.com/mongodb/homebrew-brew
+
+List all brew servies : brew services list
+
+See logs: 'tail -f /usr/local/var/log/mongodb/mongo.log'
