@@ -10,3 +10,9 @@ https://github.com/mongodb/homebrew-brew
 List all brew servies : brew services list
 
 See logs: 'tail -f /usr/local/var/log/mongodb/mongo.log'
+
+
+Env variables for heroku
+heroku config:set JWT_SECRET=someRandomChars
+heroku config:set MAIL_GUN_API_KEY=bb95fab704144c11045b01cf75c9bf52-8d821f0c-e1dd21ba
+heroku config:set MONGO_DB_URL='mongodb+srv://aakash6025:OboIk9ePeNENlf17@cluster0.x252g.mongodb.net/?retryWrites=true&w=majority'
